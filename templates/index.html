@@ -2,27 +2,31 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../static/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" 
           rel="stylesheet">
-    <title>Портфолио Junior верстальщика</title>
+    <title>Портфолио</title>
   </head>
 
   <body>
     <header class="page-header">
       <div class="container">
-        nikitakrasnovk589@gmail.com
+        <a href="mailto:nikitakrasnovk589@gmail.com" class="header-email">nikitakrasnovk589@gmail.com</a>
+        <a href="tel:+79995300683" class="header-phone">+7 999 530 06 83</a>
       </div>
     </header>
 
     <div class="container">
     <section class="hero-image">
-      <h1 class="heading">Неопознанный Енот</h1>
-      <p>Junior верстальщик</p>
+      <h1 class="heading">Краснов Никита</h1>
+      <p>Web Developer</p>
     </section>
 
     <section class="intro">
       <h2 class="subheading">Давайте познакомимся</h2>
+      <figure class="user-image">
+        <img src="../static/files/user.jpg" width="928" height="536" alt="Фотография Краснова Никиты">
+      </figure>
       <h3>Пара слов о себе</h3>
       <p>Текст с парой слов о себе.</p>
       <h3>Чем могу быть полезен</h3>
@@ -30,19 +34,25 @@
     </section>
 
     <section class="portfolio">
+
       <h2 class="subheading">Мои работы</h2>
+
+      <figure class="project-image">
+        <img src="../static/files/project.jpg" width="928" height="536" alt="Cайт магазина товаров для дома">
+      </figure>
 
       <h3>Магазин товаров для дома</h3>
       <p>Мой первый сайт.</p>
 
-      <h3>Блог начинающего верстальщика</h3>
-      <p>Статический блог про обучение HTML и CSS.</p>
+      <a class="button" href="source/project/index.html">Открыть страницу</a>
+      
     </section>
     </div>
 
     <footer class="page-footer">
       <div class="container">
-        +79995300683
+        <a href="mailto:nikit0skrasnov@yandex.com" class="footer-email">nikit0skrasnov@yandex.com</a>
+        <a href="tel:+79995300683" class="footer-phone">+7 999 530 06 83</a>
       </div>
     </footer>
   </body>
