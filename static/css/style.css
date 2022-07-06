@@ -6,7 +6,7 @@ body {
   line-height: 32px;
   color: #222222;
   background-color: #f2f4f6;
-  background-image: url("../img/hero-bg.jpg");
+  background-image: url("../img/light-theme/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -36,14 +36,14 @@ body {
   background-position: left;
 }
 
-.header-email {
+.email {
   padding-left: 30px;
-  background-image: url("../img/icon-email-header.svg");
+  background-image: url("../img/light-theme/icon-email.svg");
 }
 
-.header-phone {
+.phone {
   padding-left: 25px;
-  background-image: url("../img/icon-phone-header.svg");
+  background-image: url("../img/light-theme/icon-phone.svg");
 }
 
 .hero-image {
@@ -181,14 +181,4 @@ body {
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
-}
-
-.footer-email {
-  padding-left: 30px;
-  background-image: url("../img/icon-email-footer.svg");
-}
-
-.footer-phone {
-  padding-left: 25px;
-  background-image: url("../img/icon-phone-footer.svg");
 }
