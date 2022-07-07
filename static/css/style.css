@@ -5,10 +5,18 @@ body {
   font-size: 16px;
   line-height: 32px;
   color: #222222;
-  background-color: #f2f4f6;
-  background-image: url("../img/light-theme/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
+}
+
+.background.light {
+  background-image: url("../img/light-theme/hero-bg.jpg");
+  background-color: #f2f4f6;
+}
+
+.background.dark {
+  background-image: url("../img/dark-theme/hero-bg.jpg");
+  background-color: #000000;
 }
 
 .container {
@@ -36,14 +44,79 @@ body {
   background-position: left;
 }
 
+.theme-button {
+  float: left;
+  font-size: 30px;
+}
+
+.bi-moon {
+  color: black; 
+}
+
+.bi-brightness-low {
+  color: #fea18d;
+}
+
 .email {
   padding-left: 30px;
-  background-image: url("../img/light-theme/icon-email.svg");
 }
 
 .phone {
   padding-left: 25px;
+}
+
+.email.light {
+  background-image: url("../img/light-theme/icon-email.svg");
+}
+
+.email.dark {
+  background-image: url("../img/dark-theme/icon-email.svg");
+  color: #fea18d;
+}
+
+.phone.light {
   background-image: url("../img/light-theme/icon-phone.svg");
+}
+
+.phone.dark {
+  background-image: url("../img/dark-theme/icon-phone.svg");
+  color: #fea18d;
+}
+
+.bi-telegram {
+  font-size: 20px;
+}
+
+.bi-telegram.light {
+  color: white;
+}
+
+.bi-telegram.dark {
+  color: #fea18d;
+}
+
+.bi-discord {
+  font-size: 20px;
+}
+
+.bi-discord.light {
+  color: white;
+}
+
+.bi-discord.dark {
+  color: #fea18d;
+}
+
+.bi-github {
+  font-size: 20px;
+}
+
+.bi-github.light {
+  color: white;
+}
+
+.bi-github.dark {
+  color: #fea18d;
 }
 
 .hero-image {
@@ -105,6 +178,7 @@ body {
 }
 
 .skills-list dt {
+  margin: 20px;
   padding-left: 32px;
   background-repeat: no-repeat;
   background-position: left;
@@ -118,21 +192,19 @@ body {
   background-image: url("../img/icon-css.svg");
 }
 
-.level {
-  margin: 4px 0 16px;
-  padding: 0;
-  height: 14px;
-  font-size: 0;
-  background-color: #ffffff;
-  border: 1px solid #86c3fa;
-  border-radius: 8px;
+.skill-js {
+  color: #efd81d;
+  font-size: 20px;
 }
 
-.level div {
-  margin: 1px;
-  height: 12px;
-  background-color: #288be6;
-  border-radius: 6px;
+.skill-bootstrap {
+  background-image: url("../img/icon-bootstrap.svg");
+}
+
+.skill-django {
+  text-align: start;
+  font-size: 20px;
+  color: #0c4b33;
 }
 
 .portfolio {
@@ -171,8 +243,15 @@ body {
 
 .page-footer {
   padding: 40px 0;
-  background-color: #00417d;
   color: #ffffff;
+}
+
+.page-footer.light {
+  background-color: #00417d;
+}
+
+.page-footer.dark {
+  background-color: #212529;
 }
 
 .page-footer a {
