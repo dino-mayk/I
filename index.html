@@ -24,47 +24,93 @@
     <div class="container">
     <section class="hero-image">
       <h1 class="heading">Краснов Никита</h1>
-      <p>Web Developer</p>
+      <p>Full Stack Developer</p>
     </section>
 
     <section class="intro">
       <div>
         <h2 class="subheading">Давайте познакомимся</h2>
         <figure class="user-image">
-          <img src="static/files/user.jpg" width="928" height="536" alt="Фотография Краснова Никиты">
+          <img src="static/files/user.jpg" width="500" height="500" alt="Фотография Краснова Никиты">
         </figure>
-        <div>
-          <h3>Пара слов о себе</h3>
-          <p>Выпускник <a href="https://academy.yandex.ru/lyceum">Лицея Академии Яндекса</a></p>
-        </div>
-        <div>
-          <h3>Чем могу быть полезен</h3>
-          <p>Могу разробатывать веб приложения на фреймоворке django</p>
+        <div class="about">
+          <h3>О себе</h3>
+          <p>Моё самое любимое увлечение - это программирование, оно приносит мне удовольствие, а порой и <a href="#homecooking">денежные вознаграждения</a>. 
+            Ради этого увлечения я готов выкладываться на полную и стараться что есть сил. А ведь это и есть одно из условий успеха.</p>
+          <p>
+            Моё первое знакомство с программированием произошло в 2020 году в <a href="https://academy.yandex.ru/lyceum/">Лицее Академии Яндекса</a> 
+            (тогда это ещё был Яндекс Лицей). Туда я пошёл по предложению школьного учителя информатики <a href="tel:+7 919 163 8095">
+            Аколелова Андрея Николаевича</a>. Успешно сдав все вступительные контесты и пройдя собеседование я поступил на курс 
+            "Основы программирования на языке Python". Там в течении 7 месяцев (с начала Октября по конец Апреля) и продолжалось моё обучение.
+          </p>
+          <p>
+            В конце Апреля 2021 года успешно закончив первый курс моим решением стало изучение HTML и CSS. 
+            Так в течении всего лета я и проводил практически всё своё свободное время за самостоятельным изучением веба.
+          </p>
+          <p>
+            Уже в Сентябре 2021 года стартовал новый курс "Основы промышленного программирования". На нём я научился делать 
+            <a href="#myhealth">десктопные приложения на модуле Pyqt5</a>, <a href="#superbird">простейшие 2д игры на модуле Pygame</a> 
+            и <a href="#homecooking">web сайты на фреймворке Flask</a>. Там же во время написания последнего проекта освоил и Bootstrap.
+          </p>
+          <p>
+            Сейчас, закончив второй курс на отлично в Апреле 2022 года, я изучаю javascript, фреймворк django, английский язык, 
+            практикую слепую печать, готовлюсь к экзаменам и поступлению в 
+            <a href="https://academy.yandex.ru/plusplus#stages-group">Лицей++ Академии Яндекса</a> на направление "Веб‑разработка на Django"
+          </p>
         </div>
         <div class="skills">
           <h3>Мои навыки</h3>
-          <dl class="skills-list row">
-            <dt class="skill-html col">HTML</dt>
-            <dt class="skill-css col">CSS</dt>
-            <dt class="skill-bootstrap col">Bootstrap</dt>
-            <dt class="skill-django col">django</dt>
-            <dt class="skill-js col">JS</dt>
+          <dl class="skills-list">
+            <dt class="skill-html">HTML</dt>
+            <dd class="level"><div style="width: 90%;"></div></dd>
+            <dt class="skill-css">CSS</dt>
+            <dd class="level"><div style="width: 80%;"></div></dd>
+            <dt class="skill-js">JS</dt>
+            <dd class="level"><div style="width: 60%;"></div></dd>
+            <dt class="skill-bootstrap">Bootstrap</dt>
+            <dd class="level"><div style="width: 60%;"></div></dd>
+            <dt class="skill-python">python</dt>
+            <dd class="level"><div style="width: 90%;"></div></dd>
+            <dt class="skill-django">django</dt>
+            <dd class="level"><div style="width: 10%;"></div></dd>
+            <dt class="skill-flask">Flask</dt>
+            <dd class="level"><div style="width: 60%;"></div></dd>
+            <dt class="skill-c">C++</dt>
+            <dd class="level"><div style="width: 10%;"></div></dd>
           </dl>
         </div>
       </div>
     </section>
 
     <section class="portfolio">
-
       <h2 class="subheading">Мои работы</h2>
 
-      <figure class="project-image">
-        <img src="static/files/project.jpg" width="928" height="536" alt="Cайт магазина товаров для дома">
-      </figure>
+      <div id="homecooking">
+        <figure class="project-image">
+          <img src="static/files/homecooking.jpg" width="1100" height="500" alt="Cайт придорожного кафе">
+        </figure>
 
-      <h3>Сайт придорожного кафе</h3>
-      <p>Мой первый сайт, разработанный на фремворке Flask</p>
-      
+        <h3>Сайт придорожного кафе</h3>
+        <p>Мой первый сайт за который я и получил свои первые деньги.</p>
+      </div>
+
+      <div id="myhealth">
+        <figure class="project-image">
+          <img src="static/files/myhealth.png" alt="Приложение для ведения здорового образа жизни">
+        </figure>
+
+        <h3>Приложение для ведения здорового образа жизни</h3>
+        <p>Моё первое десктопное приложение.</p>
+      </div>
+
+      <div id="superbird">
+        <figure class="project-image">
+          <img src="static/files/superbird.png" alt="2д игра">
+        </figure>
+
+        <h3>2д игра</h3>
+        <p>Моя первая игра.</p>
+      </div>
     </section>
     </div>
 

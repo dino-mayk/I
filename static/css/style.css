@@ -83,42 +83,6 @@ body {
   color: #fea18d;
 }
 
-.bi-telegram {
-  font-size: 20px;
-}
-
-.bi-telegram.light {
-  color: white;
-}
-
-.bi-telegram.dark {
-  color: #fea18d;
-}
-
-.bi-discord {
-  font-size: 20px;
-}
-
-.bi-discord.light {
-  color: white;
-}
-
-.bi-discord.dark {
-  color: #fea18d;
-}
-
-.bi-github {
-  font-size: 20px;
-}
-
-.bi-github.light {
-  color: white;
-}
-
-.bi-github.dark {
-  color: #fea18d;
-}
-
 .hero-image {
   margin-bottom: 620px;
 }
@@ -172,6 +136,10 @@ body {
   margin: 0 0 32px;
 }
 
+p.about {
+  font-size: 30px;
+}
+
 .skills-list {
   margin: 0;
   padding: 0;
@@ -193,22 +161,60 @@ body {
 }
 
 .skill-js {
+  background-image: url("../img/icon-javascript.svg");
   color: #efd81d;
   font-size: 20px;
 }
 
 .skill-bootstrap {
   background-image: url("../img/icon-bootstrap.svg");
+  color: #732ff9;
+}
+
+.skill-python {
+  background-image: url("../img/icon-python.svg");
+  color: #ffc107;
 }
 
 .skill-django {
-  text-align: start;
   font-size: 20px;
   color: #0c4b33;
 }
 
+.skill-flask {
+  background-image: url("../img/icon-flask.svg");
+  font-size: 20px;
+  color: #212529;
+}
+
+.skill-c {
+  font-size: 20px;
+  color: #212529;
+}
+
+.level {
+  margin: 4px 0 16px;
+  padding: 0;
+  height: 14px;
+  font-size: 0;
+  background-color: #ffffff;
+  border: 1px solid #86c3fa;
+  border-radius: 8px;
+}
+
+.level div {
+  margin: 1px;
+  height: 12px;
+  background-color: #288be6;
+  border-radius: 6px;
+}
+
 .portfolio {
   margin: 0 0 120px;
+}
+
+.portfolio div {
+  margin: 60px;
 }
 
 .projects {
@@ -239,6 +245,42 @@ body {
   border-radius: 4px;
   background-color: #288be6;
   color: #ffffff;
+}
+
+.bi-telegram {
+  font-size: 20px;
+}
+
+.bi-telegram.light {
+  color: white;
+}
+
+.bi-telegram.dark {
+  color: #fea18d;
+}
+
+.bi-discord {
+  font-size: 20px;
+}
+
+.bi-discord.light {
+  color: white;
+}
+
+.bi-discord.dark {
+  color: #fea18d;
+}
+
+.bi-github {
+  font-size: 20px;
+}
+
+.bi-github.light {
+  color: white;
+}
+
+.bi-github.dark {
+  color: #fea18d;
 }
 
 .page-footer {
