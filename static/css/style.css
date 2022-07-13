@@ -4,9 +4,16 @@ body {
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
-  color: #222222;
   background-repeat: no-repeat;
   background-position: top center;
+}
+
+body.light {
+  color: #222222;
+}
+
+body.dark {
+  color: #f2f2f2;
 }
 
 .background.light {
@@ -154,10 +161,12 @@ p.about {
 
 .skill-html {
   background-image: url("../img/icon-html.svg");
+  color: #e4492f;
 }
 
 .skill-css {
   background-image: url("../img/icon-css.svg");
+  color: #0066a9;
 }
 
 .skill-js {
@@ -177,6 +186,7 @@ p.about {
 }
 
 .skill-django {
+  background-image: url("../img/icon-django.svg");
   font-size: 20px;
   color: #0c4b33;
 }
@@ -184,12 +194,25 @@ p.about {
 .skill-flask {
   background-image: url("../img/icon-flask.svg");
   font-size: 20px;
-  color: #212529;
+  color: #a3d4ff;
 }
 
-.skill-c {
+.skill-c-plus-plus {
+  background-image: url("../img/icon-c++.svg");
   font-size: 20px;
-  color: #212529;
+  color: #005494;
+}
+
+.skill-pyqt5 {
+  background-image: url("../img/icon-pyqt5.svg");
+  font-size: 20px;
+  color: #77b73b;
+}
+
+.skill-pygame {
+  background-image: url("../img/icon-pygame.svg");
+  font-size: 20px;
+  color: #8d8ebd;
 }
 
 .level {
