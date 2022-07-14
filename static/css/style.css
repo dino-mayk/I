@@ -23,7 +23,7 @@ body.dark {
 
 .background.dark {
   background-image: url("../img/dark-theme/hero-bg.jpg");
-  background-color: #000000;
+  background-color: #040406;
 }
 
 .container {
@@ -132,7 +132,8 @@ body.dark {
 }
 
 .intro h3,
-.portfolio h3 {
+.portfolio h3,
+.certificates h3 {
   margin: 0 0 12px;
   font-size: 28px;
   line-height: 40px;
@@ -232,11 +233,13 @@ p.about {
   border-radius: 6px;
 }
 
-.portfolio {
+.portfolio,
+.certificates {
   margin: 0 0 120px;
 }
 
-.portfolio div {
+.portfolio div,
+.certificates div {
   margin: 60px;
 }
 
